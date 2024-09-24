@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="left|center"
+        android:text="     3.Diary - 일기 리스트와 작성"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/line"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:src="@drawable/use3"/>
+
+    <ImageView
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/line"/>
+
+    <TextView
+        android:text="Diary 탭입니다.\n 추가 버튼을 눌러 일기를 추가해보세요. 오늘의 기분과 날씨, 그리고 오늘 있었던 일들를 기록할 수 있습니다."
+        android:gravity="center|top"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+</LinearLayout>
+
+
+

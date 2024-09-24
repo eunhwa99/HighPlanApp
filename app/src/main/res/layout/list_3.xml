@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/saying"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/talking">
+
+        </TextView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        >
+
+        <ListView
+            android:id="@+id/listv"
+            android:layout_width="match_parent"
+            android:layout_height="470dp">
+        </ListView>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:clickable="true"
+            android:visibility="visible"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/ic_add_to_photos_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            android:focusable="true" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="home"
+            android:text="home"
+            android:textColor="#000000"
+            android:background="@drawable/button_design"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="schedule"
+            android:textColor="#000000"
+            android:background="@drawable/button_design"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diary"
+            android:textColor="#000000"
+            android:background="@drawable/button_design"/>
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginRight="3dp"
+            android:text="setting"
+            android:textColor="#000000"
+            android:background="@drawable/button_design"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

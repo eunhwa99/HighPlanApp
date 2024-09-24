@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="left|center"
+        android:text="     1.Main - 메인 달력과 TimeTable"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/line"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:src="@drawable/use1"/>
+
+    <ImageView
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/line"/>
+
+    <TextView
+        android:text="메인 화면입니다. 달력을 확인해보세요. \n해당 날짜를 클릭하면, 그 날의 TimeTable을 볼 수 있어요!"
+        android:gravity="center|top"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+</LinearLayout>
+
+
+

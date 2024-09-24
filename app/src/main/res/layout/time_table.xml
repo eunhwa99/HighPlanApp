@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="50dp"
+        android:text=" Time_Table"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/today_date"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="8"
+    android:orientation="vertical"
+    android:id="@+id/timetable">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableRow>
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:text=""
+                android:id="@+id/hour1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="00" android:id="@+id/min10" android:layout_weight="1" android:gravity="center"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="10" android:id="@+id/min11" android:layout_weight="1" android:gravity="center"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="20" android:id="@+id/min12" android:layout_weight="1" android:gravity="center"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="30" android:id="@+id/min13" android:layout_weight="1" android:gravity="center"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="40" android:id="@+id/min14" android:layout_weight="1" android:gravity="center"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="50" android:id="@+id/min15" android:layout_weight="1" android:gravity="center"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="10" android:paddingBottom="10dp">
+
+
+        <TableLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="10" android:isScrollContainer="true" android:padding="10dp">
+
+
+            <TableRow>
+
+                <TextView  android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="00" android:id="@+id/time00" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t000" android:layout_weight="1" android:ellipsize="marquee"/>
+
+                <TextView  android:singleLine="true" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t001" android:layout_weight="1" android:ellipsize="marquee"/>
+
+                <TextView  android:singleLine="true" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t002" android:layout_weight="1" android:ellipsize="marquee"/>
+
+                <TextView  android:singleLine="true" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t003" android:layout_weight="1" android:ellipsize="marquee"/>
+
+                <TextView  android:singleLine="true" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t004" android:layout_weight="1" android:ellipsize="marquee"/>
+
+                <TextView  android:singleLine="true" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t005" android:layout_weight="1" android:ellipsize="marquee"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="01" android:id="@+id/time01" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView   android:singleLine="true" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t010" android:layout_weight="1" android:ellipsize="marquee"/>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t011" android:layout_weight="1"
+                    android:ellipsize="marquee"  android:singleLine="true"/>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:id="@+id/t012"
+                    android:layout_weight="1"/>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:id="@+id/t013" android:layout_weight="1"/>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t014"
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_weight="1"/>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t015"
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent"
+
+                    android:textSize="20dp" android:text="02" android:id="@+id/time02" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:id="@+id/t020" android:layout_weight="1"/>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:id="@+id/t021" android:layout_weight="1"/>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:id="@+id/t022" android:layout_weight="1"/>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:id="@+id/t023" android:layout_weight="1"/>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:id="@+id/t024" android:layout_weight="1"/>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:id="@+id/t025" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent"
+
+                    android:textSize="20dp" android:text="03" android:id="@+id/time03" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t030" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t031" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t032" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t033" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t034" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t035" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="04" android:id="@+id/time04" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t040" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t041" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t042" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t043" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t044" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t045" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="05" android:id="@+id/time05" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t050" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t051" android:layout_weight="1"/>
+
+                <TextView android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t052" android:layout_weight="1"/>
+
+                <TextView android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t053" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t054" android:layout_weight="1"/>
+
+                <TextView
+                    android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t055" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="06" android:id="@+id/time06" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t060" android:layout_weight="1"/>
+
+                <TextView android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t061" android:layout_weight="1"/>
+
+                <TextView
+                    android:singleLine="true"
+                    android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t062" android:layout_weight="1"/>
+
+                <TextView android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t063" android:layout_weight="1"/>
+
+                <TextView android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t064" android:layout_weight="1"/>
+
+                <TextView android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t065" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="07" android:id="@+id/time07" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t070" android:layout_weight="1"/>
+
+                <TextView android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t071" android:layout_weight="1"/>
+
+                <TextView android:ellipsize="marquee"  android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t072" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t073" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t074" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t075" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="08" android:id="@+id/time08" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t080" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t081" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t082" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t083" android:layout_weight="1"/>
+
+                <TextView android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t084" android:layout_weight="1"/>
+
+                <TextView android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t085" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="09" android:id="@+id/time09" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t090" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t091" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t092" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true"  android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t093" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t094" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t095" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="10" android:id="@+id/time10" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t100" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t101" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t102" android:layout_weight="1"/>
+
+                <TextView
+                    android:singleLine="true"
+                    android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t103" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t104" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t105" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="11" android:id="@+id/time11" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t110" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t111" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t112" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t113" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t114" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t115" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="12" android:id="@+id/time12" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t120" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t121" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t122" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t123" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t124" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t125" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="13" android:id="@+id/time13" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t130" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t131" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t132" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t133" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t134" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t135" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="14" android:id="@+id/time14" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t140" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t141" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t142" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t143" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t144" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t145" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="15" android:id="@+id/time15" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t150" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t151" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t152" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t153" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t154" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t155" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="16" android:id="@+id/time16" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t160" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t161" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t162" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t163" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t164" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t165" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="17" android:id="@+id/time17" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t170" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t171" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t172" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t173" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t174" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t175" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="18" android:id="@+id/time18" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t180" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t181" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t182" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t183" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t184" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t185" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            -<TableRow>
+
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="19" android:id="@+id/time19" android:layout_weight="1" android:gravity="center"/>
+
+            <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t190" android:layout_weight="1"/>
+
+            <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t191" android:layout_weight="1"/>
+
+            <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t192" android:layout_weight="1"/>
+
+            <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t193" android:layout_weight="1"/>
+
+            <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t194" android:layout_weight="1"/>
+
+            <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t195" android:layout_weight="1"/>
+
+        </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="20" android:id="@+id/time20" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t200" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t201" android:layout_weight="1"/>
+
+                <TextView   android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t202" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t203" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t204" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t205" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="21" android:id="@+id/time21" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t210" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t211" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t212" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t213" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t214" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t215" android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            -<TableRow>
+
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="22" android:id="@+id/time22" android:layout_weight="1" android:gravity="center"/>
+
+            <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t220" android:layout_weight="1"/>
+
+            <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t221" android:layout_weight="1"/>
+
+            <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t222" android:layout_weight="1"/>
+
+            <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t223" android:layout_weight="1"/>
+
+            <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t224" android:layout_weight="1"/>
+
+            <TextView   android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t225" android:layout_weight="1"/>
+
+        </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:textSize="20dp" android:text="23" android:id="@+id/time23" android:layout_weight="1" android:gravity="center"/>
+
+                <TextView   android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t230" android:layout_weight="1"/>
+
+                <TextView   android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t231" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t232" android:layout_weight="1"/>
+
+                <TextView   android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t233" android:layout_weight="1"/>
+
+                <TextView  android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t234" android:layout_weight="1"/>
+
+                <TextView android:singleLine="true" android:ellipsize="marquee" android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/t235" android:layout_weight="1"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:gravity="top" android:layout_gravity="center">
+
+    <Button android:id="@+id/btn1"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="home"
+        android:background="@drawable/button_design"/>
+
+    <Button android:id="@+id/btn2"
+        android:layout_marginRight="3dp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="schedule"
+        android:background="@drawable/button_design"/>
+
+    <Button android:id="@+id/btn3"
+        android:layout_marginRight="3dp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="diary"
+        android:background="@drawable/button_design"/>
+
+    <Button android:id="@+id/btn4"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="setting"
+        android:background="@drawable/button_design"
+        android:layout_marginRight="3dp"/>
+
+</LinearLayout>
+
+</LinearLayout>

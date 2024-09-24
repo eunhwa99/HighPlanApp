@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/today_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="date"
+            android:textSize="40dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/today_weather"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="weather"
+            android:textSize="25dp"
+            android:layout_weight="3"
+            android:gravity="center"/>
+        <ImageView
+            android:id="@+id/weather"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:layout_weight="2"/>
+
+        <ImageView
+            android:id="@+id/Emoji"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <RadioGroup
+            android:id="@+id/emotes"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/laugh"/>
+            <RadioButton
+                android:id="@+id/laughing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/smile" />
+            <RadioButton
+                android:id="@+id/smiling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/angry" />
+            <RadioButton
+                android:id="@+id/angry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/emoji" />
+            <RadioButton
+                android:id="@+id/crying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="30"
+        android:gravity="top"
+        android:id="@+id/document"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="저장"
+        android:id="@+id/save_diary"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:onClick="save_Diary"
+        android:textColor="#000000"
+        android:background="@drawable/button_design"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="top">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="home"
+            android:textColor="#000000"
+            android:background="@drawable/button_design"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="schedule"
+            android:textColor="#000000"
+            android:background="@drawable/button_design"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Diary"
+            android:textColor="#000000"
+            android:background="@drawable/button_design"/>
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginRight="3dp"
+            android:text="setting"
+            android:textColor="#000000"
+            android:background="@drawable/button_design"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="left|center"
+        android:text="     2.Schedule - Schedule 설정과 실행"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/line"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:src="@drawable/use2"/>
+
+    <ImageView
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/line"/>
+
+    <TextView
+        android:text="Schedule 탭의 추가 버튼(+ 버튼)을 눌러 해야 할 일들을 추가해보세요. 버튼에 있는 일 이외의 일은 기타버튼으로 직접 입력하시면 됩니다. 그리고 시작 버튼을 누르면 카운트다운이 시작되고, 오늘의 Timetable에 기록이 돼요."
+        android:gravity="center|top"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+</LinearLayout>
+
+
+

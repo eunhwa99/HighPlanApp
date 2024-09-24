@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="left|center"
+        android:text="     5.Widget - 홈화면 위젯 추가"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/line"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:src="@drawable/use5"/>
+
+    <ImageView
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/line"/>
+
+    <TextView
+        android:text="위젯 기능도 있습니다. 홈 화면에 추가하게 된다면, 원하는 기능으로 바로 갈 수 있고, 또한 오늘의 명언도 확인할 수 있답니다."
+        android:gravity="center|top"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+</LinearLayout>
+
+
+
