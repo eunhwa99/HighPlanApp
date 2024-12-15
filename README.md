@@ -20,3 +20,6 @@
   - Save TimeTable
   - Save ToDoList
   - Save Diary
+
+## Result
+![Screen_recording_20241215_002005+(online-video-cutter com)](https://github.com/user-attachments/assets/13f82e45-e4ae-4e5f-8d78-ead7278c4c46)
